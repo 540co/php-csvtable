@@ -9,8 +9,14 @@
             "email": "kachna@keboola.cz"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/540co/php-temp"
+      }
+    ],
     "require": {
-		"keboola/php-temp": ">=0.1.0",
+		"keboola/php-temp": "dev-fork as 0.1.0",
 		"keboola/csv": "~1.1.0"
     },
 	"require-dev": {
